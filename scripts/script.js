@@ -1,17 +1,11 @@
 'use strict';
-
-//Element Selectors
-
-//Score Elements
 const userScoreEl = document.getElementById('user-score');
 const computerScoreEl = document.getElementById('computer-score');
 
-//Weapon Elements
 const weaponsContainer = document.getElementById('weapons-container');
 const userWeaponEl = document.getElementById('user-weapon');
 const computerWeaponEl = document.getElementById('computer-weapon');
 
-//Result Elements
 const resultContainer = document.getElementById('result-container');
 const resultEl = document.getElementById('result');
 
