@@ -61,7 +61,6 @@ const showResult = function (userChoice, computerChoice, result) {
 };
 
 const getResult = function (userChoice, computerChoice) {
-  
   let resultString = `${userChoice}${computerChoice}`;
   if (userChoice === computerChoice) {
     
@@ -73,7 +72,7 @@ const getResult = function (userChoice, computerChoice) {
   ) {
     
     showResult(userChoice, computerChoice, 'win');
-  } else if (
+  } else if {(
     resultString === 'scissorsrock' ||
     resultString === 'rockpaper' ||
     resultString === 'paperscissors'
